@@ -67,7 +67,7 @@ public class HelloAction  {
     @RequestMapping("hello/say.do")
    @ResponseBody
     public String hello()  {
-        String env = System.getProperty("env");
+        String env = System.getProperty("Denv");
         return "hello1test env:"+env;
     }
 
