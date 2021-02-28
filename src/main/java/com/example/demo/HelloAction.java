@@ -68,7 +68,7 @@ public class HelloAction  {
    @ResponseBody
     public String hello()  {
         String env = System.getProperty("env");
-        return "hello1 env"+env;
+        return "hello1test env:"+env;
     }
 
     //备选响应，服务降级
